@@ -1,4 +1,4 @@
-### Mapping Trail Ownership in San Diego County
+# Mapping Trail Ownership in San Diego County
 This project creates an interactive GIS tool that shows which agencies manage hiking trail segments across San Diego County. Trail data from OpenStreetMap is spatially joined with land ownership data to reveal how trails cross federal, state, local, and non-profit lands.
 ## Objective
 The goal of this project is to provide an easy-to-use way to visualize trail ownership and management responsibility. Trails often feel seamless to users, but management can change multiple times along a single route. This project makes those boundaries visible.
@@ -6,7 +6,7 @@ The goal of this project is to provide an easy-to-use way to visualize trail own
 ⦁	San Diego County Boundary (San Diego County GIS)
 ⦁	California Land Ownership Dataset (California State Geoportal)
 ⦁	Trail data from OpenStreetMap accessed using OSMnx
-# Raw datasets are not included due to size and licensing considerations.
+### Raw datasets are not included due to size and licensing considerations.
 ## Methods
 ⦁	Reprojected all data to WGS84 (EPSG:4326) for compatibility with OpenStreetMap and Folium
 ⦁	Clipped statewide land ownership data to San Diego County
